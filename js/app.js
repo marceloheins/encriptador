@@ -11,6 +11,7 @@ function btnEncriptar(){
     const textoEncriptado = encriptar(textArea.value);
     mensagem.value = textoEncriptado;
     mensagem.style.removeProperty("background-color");
+    mensagem.value = textoEncriptado;
     textArea.value = "";
 
 }
@@ -26,7 +27,7 @@ function encriptar(stringEncriptada){
 
     }
     return stringEncriptada;
-    mensagem.style.removeProperty("backgrounr-repeat");
+
 }
     
 

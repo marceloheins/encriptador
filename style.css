@@ -51,9 +51,8 @@ main{
 
 .mensagem{
 
-    /*background-image: url("./img/boneco.png");
-    background-repeat: no-repeat;*/
-    background-color: none;
+    background-image: url("./img/boneco.png");
+    background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
     color: #0a3871;
@@ -66,6 +65,7 @@ main{
 
 .mensagem:focus{
     outline: none;
+    z-index: 1;
 }
 
 .botoes{
